@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Style */
+
+body{
+    background-color: #ffffff;
+    font-size: 18.96px;
+    font-family: 'Karla', sans-serif;;
+}
+.container{
+    width:1140px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Karla', sans-serif;;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 10px;
+}
+.heading-nav a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:grey;
+    margin-left: 30px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 8px;
+    margin-right: 12px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color:grey;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+/* main section */
+
+.intro-section{
+    width:100%;
+    background-color: #2d2640;
+}
+.section-hr{
+    width: 20%;
+    color:grey;
+    margin-left: 0;
+}
+.h1{
+    font-size: 50px;
+    font-family: "DM Serif Display";
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.h2{
+    font-size: 40px;
+    color:black;
+}
+.first-article-btn{
+    margin: 50px;
+    background-color: #2d2640;
+    color:#ffffff;
+    border:1px solid white;
+    padding: 12px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+
+.first-article{
+width: 50%;
+}
+.first-image img{
+    width:94%;
+    margin: 40px 20px;
+    display:block;
+    margin-bottom: -3rem;
+}
+.first-text{
+    text-align: left;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom:  100px ;
+}
+/* Gallery-article */
+.space-between{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-image img{
+    width:80%;
+    margin: 50px 0;
+}
+.article{
+    width:50%;
+}
+.article-text{
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 0;
+}
+/* column */
+.h3{
+    font-size: 20px;
+    color:black;
+    font-family: "DM Serif Display";
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.setting{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #8ab4f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.box{
+    width:100%;
+    height:200px;
+    background-color: #2d2640;
+    margin: 30px 0;
+}
+.box-h2{
+    width:30%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "DM Serif Display";
+    text-transform: capitalize;
+    padding: 40px;
+    line-height: 1.5;
+}
+.box-btn{
+    margin: 50px;
+    background-color: #2d2640;
+    color:#ffffff;
+    border:1px solid white;
+    padding: 10px;
+}
+.col-para{
+    font-size: 19px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    color: #6b7c93 ;
+}
+.footer-icon a{
+    color:grey;
+    margin:0 10px;
+    border-radius: 5px;
+}
+.footer-nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-hr{
+    width:75%;
+    color: grey;
+    margin: 0 auto;
+}
+/* Footer */
+footer{
+    width: 1140px;
+    margin: 0 auto;
+    background-color: #2d2640;
+}
+small{
+    font-size: 19px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
