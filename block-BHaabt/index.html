@@ -13,56 +13,57 @@
     <title>Proinsure - Assignment 2</title>
 </head>
 <body>
-   <header>
+   <header class="header">
        <div class="container flex">
-           <a class="logo" href="#">proinsure</a>
-           <nav class="heading-nav">
+           <a class="brand" href="#">proinsure</a>
+           <nav class="nav">
                <a href="index.html">home</a>
                <a href="#">about</a>
                <a href="#">contact</a>
-               <a href="#"><button class="btn">view plans</button></a>
+               <a class="btn" href="#">view plans</a>
             </nav>
         </div>
    </header>
    <main>
-       <section class="intro-section">
-           <div class="container space-between">
-               <div class="first-article">
-                 <hr class="section-hr">
-                 <h1 class="h1">humanizing your insurance</h1>
-                 <p class="first-text">insurer'sbuisness model aims to collect more in premium and investment income than is paid out in losses,and to also offer a competitive price which consumers will accept</p>
-                 <a href="#"><button class="first-article-btn">view plans</button></a>
+       <section class="hero">
+           <article class="container flex align-start">
+               <div class="col">
+                 <div class="line"></div>
+                 <h1 class="hero-heading">humanizing your insurance</h1>
+                 <p class="hero-text">insurer'sbuisness model aims to collect more in premium and investment income than is paid out in losses,and to also offer a competitive price which consumers will accept</p>
+                 <a class="btn btn-second" href="#">view plans</a>
+               </div>
+               <div class="col">
+                    <img class="hero-img img-100" src="assets/01.png" alt="Man with his child">
                 </div>
-                <div class="first-image">
-                    <img src="assets/01.png" alt="">
-                </div>
-            </div>
+            </article>
         </section>
-        <article class="gallery-article">
-            <div class="container space-between">
-                <div class="second-image">
-                    <img src="assets/02.png" alt=""> 
-                </div>
-                <div class="article">
-                    <h2 class="h1 h2">about the insure</h2>
-                    <p class="article-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur velit pariatur, magni asperiores libero quos!</p>
-                     <a href="#"><button class="btn">know more</button></a>
-                </div>
-            </div>
-        </article>
-        <section class="column">
+        <section class="about padding">
+           <article class="container flex">
+              <div class="col">
+                 <img class="img-100"src="assets/02.png" alt="Man with children"> 
+              </div> 
+              <div class="col">
+                <h2 class="heading">About the insure</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur velit pariatur, magni asperiores libero quos!</p>
+                <a class="btn" href="#">know more</a>
+              </div>
+           </article>
+        </section>
+        <section class="feature padding">
             <div class="container">
-                <hr class="section-hr">
-                <h2 class="h1 h2">we are different</h2>
-                <div class="flex wrap">
-                    <div class="col">
+                <div class="line"></div>
+                <h2 class="heading">we are different</h2>
+
+                <div class="flex align-start">
+                    <div class="col-1">
                         <div class="setting">
                             <i class="fas fa-cogs"></i>
                         </div>
                         <h3 class="h3">easy process</h3>
-                        <p class="col-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse impedit non voluptatum ipsa provident debitis molestias natus sint rerum!</p>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse impedit non voluptatum ipsa provident debitis molestias natus sint rerum!</p>
                     </div>
-                    <div class="col">
+                    <div class="col-1">
                         <div class="setting">
                             <i class="fas fa-cogs"></i>
                         </div>
@@ -70,7 +71,7 @@
                         <h3 class="h3">affordable price</h3>
                         <p class="col-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sapiente ratione mollitia amet. Laborum, tempora voluptates reprehenderit illo fugit quos.</p>
                     </div>
-                    <div class="col">
+                    <div class="col-1">
                         <div class="setting">
                             <i class="fas fa-cogs"></i>
                         </div>
@@ -79,36 +80,36 @@
                         <p class="col-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos est magni voluptatum doloremque sint ut laudantium asperiores sed, necessitatibus at?</p>
                     </div>
                 </div>
-                <div class="box flex">
-                    <h2 class="box-h2">find out more about how we work</h2>
-                    <a href="#"><button class="box-btn">how we work</button></a>
-                </div>
-            </div>    
-        <section class="last-section">
+            </div>
+        </section>       
+        <section class="cta">
             <div class="container flex">
-                    <a class="logo" href="#">proinsure</a>
-                        <nav class="footer-icon">
-                            <a href="#"><i class="fab fa-facebook-square"></i></a>
-                            <a href="#"><i class="fab fa-twitter-square"></i></a>
-                        </nav>
-                    </div>
-                    <hr class="footer-hr">   
-                <div class="container center">
-                    
-                    <nav class="heading-nav footer-nav">
-                        <a href="index.html">home</a>
-                        <a href="#">about</a>
-                        <a href="#">contact</a>
-                        <a href="#">how we work</a>
-                     </nav>
-                </div>    
+                <h3>Find out more
+                    <br> about how we work</h3>
+                    <a class="btn btn-second" href="#">How we work</a>
             </div>
-        </section>
-        <footer class="footer">
-            <div class="container center">
-                <small>&copy AltCampus services pvt ltd,2018-present</small> 
-            </div>
-        </footer>
-   </main> 
+        </section>                  
+    </main>
+   <footer class="footer">
+    <div class="container">
+        <div class="flex social">
+            <h2>Proinsure</h2>
+            <nav class="footer-icon">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </nav>
+        </div>
+        <nav class="footer-nav">
+                <a href="index.html">home</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+                <a href="#">how we work</a>
+        </nav>
+        <div class="copyright">
+            <small>&copy AltCampus Services Pvt. Ltd. 2018-Present</small> 
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
